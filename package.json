@@ -1,10 +1,10 @@
 {
-  "name": "react-input-mask",
+  "name": "comigo-tech-react-input-mask",
   "description": "Masked input component for React",
-  "version": "3.0.0-alpha.2",
-  "homepage": "https://github.com/sanniassin/react-input-mask",
+  "version": "3.0.0-alpha.3",
+  "homepage": "https://github.com/comigotech/react-input-mask",
   "license": "MIT",
-  "author": "Nikita Lobachev <sanniassin@gmail.com>",
+  "author": "Comigo Tech <contato@semprecomigo.com> - forked from https://github.com/sanniassin/react-input-mask (thanks to Nikita Lobachev - @sanniassin)",
   "keywords": [
     "react",
     "input",
@@ -89,10 +89,6 @@
     "test:input": "cross-env NODE_ENV=test BABEL_ENV=test karma start",
     "test:server-render": "cross-env BABEL_ENV=test mocha --require @babel/register ./tests/server-render",
     "test:build": "cross-env BABEL_ENV=test mocha --require @babel/register ./tests/build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sanniassin/react-input-mask.git"
   },
   "dependencies": {
     "invariant": "^2.2.4",
