@@ -1,5 +1,4 @@
 import React from 'react';
-import { findDOMNode } from 'react-dom';
 import invariant from 'invariant';
 import warning from 'warning';
 
@@ -206,7 +205,7 @@ class InputElement extends React.Component {
       return null;
     }
 
-    let input = findDOMNode(this);
+    let input = document.getElementsByName(this.props.name)[0];
     const isDOMNode = typeof window !== 'undefined'
                       &&
                       input instanceof window.Element;
